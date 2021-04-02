@@ -95,6 +95,8 @@ cmake-build-debug/
 # Mongo Explorer plugin:
 .idea/**/mongoSettings.xml
 
+.idea/
+
 ## File-based project format:
 *.iws
 
@@ -147,3 +149,8 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+mvnw*
+
+.mvn/*
+*.iml
